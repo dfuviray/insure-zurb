@@ -212,6 +212,29 @@ right: 100px;
 
 }
 
+
+/* HERO MEDIUM STYLES */
+@media screen and (min-width: 40em) {
+
+  .hero-intro-image {
+    right: 30px;
+    width: 47%;
+  }
+}
+
+/* HERO IPAD STYLES STYLES */
+@media only screen 
+and (min-device-width : 768px) 
+and (max-device-width : 1024px) 
+and (orientation : portrait) {
+  
+.hero {
+  height: 500px;
+}
+
+}
+
+
 /* SERVICES STYLES */
 .services {
   padding-top: 220px;
