@@ -213,14 +213,23 @@ right: 100px;
 }
 
 
-/* HERO MEDIUM STYLES */
+/* HERO MEDIUM AND UP STYLES */
 @media screen and (min-width: 40em) {
 
   .hero-intro-image {
     right: 30px;
     width: 47%;
   }
+
+  
 }
+/* HERO MEDIUM ONLY STYLES */
+@media screen and (min-width: 40em) and (max-width: 63.9375em) {
+.hero-pattern-right {
+    right: -180px;
+   }
+}
+
 
 /* HERO IPAD STYLES STYLES */
 @media only screen 
@@ -229,8 +238,10 @@ and (max-device-width : 1024px)
 and (orientation : portrait) {
   
 .hero {
-  height: 500px;
+  height: 500px
 }
+
+
 
 }
 
